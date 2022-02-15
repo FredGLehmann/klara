@@ -1,0 +1,52 @@
+/* Général */
+body {
+  background-color: #FFECD1;
+  margin: 0;
+}
+/* Mes Class */
+.kitalic {
+  font-style: italic;
+}
+/* parametres entete */
+header{
+  background-color: #78290F;
+}
+header a{
+  background-color: #78290F;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 1em 2em;
+}
+header li{
+    margin-right: 4em;
+    transform: scale(1);
+    transition: 0.3s transform ease-in-out;
+}
+/* parametres main */
+main{
+    padding: 2em;
+}
+
+/* parametre ch1 */
+section{
+  display: flex;
+}
+section img{
+  height: 25em; /* On modifie la hauteur de l'image */
+  float: left; /* On dispose l'image Ã  gauche */
+  margin-right: 2em; /* On ajoute une marge extÃ©rieure Ã  droite*/
+  box-shadow: 5px 5px 5px black; /* On ajoute une ombre protÃ©e Ã  l'image */
+}
+section ul{
+  padding: 0;
+}
+section li{
+    list-style: none;
+}
