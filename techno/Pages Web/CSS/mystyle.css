@@ -34,7 +34,7 @@ main{
     padding: 2em;
 }
 
-/* parametre ch1 */
+/* parametre section */
 section{
   display: flex;
 }
@@ -49,4 +49,23 @@ section ul{
 }
 section li{
     list-style: none;
+}
+/* parametres tableau */
+table{
+  float: left;
+  margin: 0em 3em 1em 0em;
+  border-spacing: 1em;
+}
+
+th{
+  background-color: #15616D;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 3px 3px 3px black;
+  padding: 0.5em;
+  text-align: center;
+}
+td{
+  padding: 0.5em;
+  text-align: center;
 }
